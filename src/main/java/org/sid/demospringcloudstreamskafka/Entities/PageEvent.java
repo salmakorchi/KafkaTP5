@@ -1,4 +1,4 @@
-package org.sid.demospringcloudstreamskafka.entities;
+package org.sid.demospringcloudstreamskafka.Entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
