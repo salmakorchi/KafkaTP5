@@ -45,5 +45,6 @@ bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic
  ![image](https://user-images.githubusercontent.com/57690392/213174183-bb13ac63-a91d-4a9a-9df7-cdf55fdac66b.png)
 
 # Results
-![image](https://user-images.githubusercontent.com/57690392/213174360-530c05f3-4ffe-4e9c-a104-83bc2e4c52a2.png)
+![image](https://user-images.githubusercontent.com/57690392/213178110-a997bd6b-84ec-4468-abfe-29b77a493aa2.png)
+
 
