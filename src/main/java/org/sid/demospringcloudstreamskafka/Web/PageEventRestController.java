@@ -1,6 +1,7 @@
 package org.sid.demospringcloudstreamskafka.Web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.function.StreamBridge;
+import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +9,9 @@ import org.sid.demospringcloudstreamskafka.Entities.PageEvent;
 
 import java.util.Date;
 import java.util.Random;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
 
 @RestController
 public class PageEventRestController {
@@ -19,6 +23,7 @@ public class PageEventRestController {
         streamBridge.send(topic,pageEvent);
         return pageEvent;
     }
+
 
 
 }
